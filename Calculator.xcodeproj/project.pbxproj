@@ -48,16 +48,6 @@
 			path = Calculator;
 			sourceTree = "<group>";
 		};
-		1AFB78842DE5C77500493CFB /* CalculatorTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CalculatorTests;
-			sourceTree = "<group>";
-		};
-		1AFB788E2DE5C77500493CFB /* CalculatorUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CalculatorUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				1AFB786D2DE5C77400493CFB /* Calculator */,
-				1AFB78842DE5C77500493CFB /* CalculatorTests */,
-				1AFB788E2DE5C77500493CFB /* CalculatorUITests */,
 				1AFB786C2DE5C77400493CFB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				1AFB78832DE5C77500493CFB /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				1AFB78842DE5C77500493CFB /* CalculatorTests */,
-			);
 			name = CalculatorTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				1AFB788D2DE5C77500493CFB /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				1AFB788E2DE5C77500493CFB /* CalculatorUITests */,
 			);
 			name = CalculatorUITests;
 			packageProductDependencies = (
